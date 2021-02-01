@@ -14,14 +14,14 @@
             <p>Мы устроим классную вечеринку и вы приглашены!</p>
         </div>
         <div>
-            <label>Ваше имя:</label><input type="text" id="name" /></div>
+            <label>Ваше имя:</label><input type="text" id="name" runat="server"/></div>
         <div>
-            <label>Ваш email:</label><input type="text" id="email" /></div>
+            <label>Ваш email:</label><input type="text" id="email" runat="server"/></div>
         <div>
-            <label>Ваш телефон:</label><input type="text" id="phone" /></div>
+            <label>Ваш телефон:</label><input type="text" id="phone" runat="server"/></div>
         <div>
             <label>Вы придете?</label>
-            <select id="willattend">
+            <select id="willattend" runat="server">
                 <option value="">Выберите один из вариантов</option>
                 <option value="true">Да</option>
                 <option value="false">Нет</option>
